@@ -1,0 +1,19 @@
+@import "~@doct-react/core/build/variables.scss";
+
+.more_action_menu {
+    transform: rotate(90deg);
+}
+.horizontal_line_grey_schedule {
+    width: 200%;
+    border: 1px solid #38363629;
+    right: 45px;
+}
+
+.more_action_menu {
+    .doct-button.doct-contained-button.doct-inverse-button {
+        background-color: $grey-100 !important;
+    }
+}
+.schedule_session_white_card{
+    height: 74px;
+}

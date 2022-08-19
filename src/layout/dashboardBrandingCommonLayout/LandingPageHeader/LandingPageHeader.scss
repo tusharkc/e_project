@@ -1,0 +1,45 @@
+@import "~@doct-react/core/build/variables.scss";
+.nav_container {
+    max-width: 291px;
+    font-family: "Roboto",sans-serif !important;
+    font-size: 14px;
+}
+.nav_container span {
+    font-size: 14px;
+    margin: 15px;
+}
+.create_bussiness_account_title {
+    font-size: 14px;
+}
+.header_container_dashboard {
+    padding: 12px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: white;
+
+    .header_logo {
+        img {
+            min-width: 101px;
+        }
+    }
+}
+.active-link {
+    border-spacing: 10px;
+    position: relative;
+}
+.active-link::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0px;
+    right: 0px;
+    border-bottom: 2px solid $primary-500;
+}
+.auth-area {
+    min-width: 232px;
+    min-height: 36px;
+}
+.nav-item-space{
+    margin-left: 36px !important;
+}

@@ -1,0 +1,10 @@
+<svg id="CourseAppIcon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="Circle" width="24" height="24" rx="12" fill="none"/>
+  <g id="Art" transform="translate(1.333 2)">
+    <path id="Subtraction_15" data-name="Subtraction 15" d="M.662,20H0a.668.668,0,0,0,.66-.667V.667A.667.667,0,0,0,0,0H.662A1.335,1.335,0,0,1,2,1.332V18.667A1.335,1.335,0,0,1,.662,20Z" transform="translate(16.671)" fill="#67c6d8"/>
+    <path id="Subtraction_16" data-name="Subtraction 16" d="M.662,20H0a.668.668,0,0,0,.66-.667V.667A.667.667,0,0,0,0,0H.662A1.335,1.335,0,0,1,2,1.332V18.667A1.335,1.335,0,0,1,.662,20Z" transform="translate(19.337)" fill="#67c6d8"/>
+    <path id="Path_1202" data-name="Path 1202" d="M2.391,0H15.609A1.363,1.363,0,0,1,17,1.333V18.667A1.363,1.363,0,0,1,15.609,20H2.391A1.363,1.363,0,0,1,1,18.667V1.333A1.363,1.363,0,0,1,2.391,0Z" transform="translate(-1)" fill="#67c6d8"/>
+    <path id="Path_1195" data-name="Path 1195" d="M1.222,0H3.667V20H1.222A1.281,1.281,0,0,1,0,18.667V1.333A1.281,1.281,0,0,1,1.222,0Z" transform="translate(0)" fill="#00a0c0"/>
+    <path id="Path_1155" data-name="Path 1155" d="M0,0H3.333V4.667L1.7,3.723,0,4.667Z" transform="translate(10)" fill="#fff"/>
+  </g>
+</svg>

@@ -1,0 +1,54 @@
+.serving_segments_info {
+    max-width: 280px;
+    font-size: 16px;
+    margin-left: 20%;
+    margin-bottom: 80px;
+}
+
+.serving_segment_image_container {
+    min-width: 50vw;
+}
+
+.serving_segments_images {
+    width: 100%;
+    object-fit: contain;
+}
+.slider_container {
+    height: 433px;
+    overflow-y: hidden;
+}
+
+.bg_illustration {
+    z-index: -2;
+    top: 170px;
+    left: calc(50vw - 80px);
+}
+.section_title {
+    font-size: 45px;
+    font-weight: bolder;
+    margin-top: 145px;
+    margin-bottom: 145px;
+}
+
+.slick-current.slick-active.slick-center {
+    color: #007aff;
+    font-weight: 900;
+}
+
+.segment_titles {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 25px !important;
+    background-color: white;
+    padding-left: 5px;
+    max-width: 250px;
+}
+
+.segmant_title_container {
+    top: 320px;
+    left: calc(50vw - 50px);
+}
+
+.slick-vertical .slick-slide {
+    border: none !important;
+}

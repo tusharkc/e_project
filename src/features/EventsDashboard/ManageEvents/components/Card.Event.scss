@@ -1,0 +1,150 @@
+@import '~@doct-react/core/build/variables.scss';
+@import '../../../../styles/variable.scss';
+@import '../../../../styles/global.scss';
+
+// @import '../../../../assets/scss/Mixin';
+
+
+$manage_event_card-img-width: 328px;
+$manage_event_card-img-height: 138px;
+
+$manage_event_card__active-color: $white;
+$manage_event_card__draft-color: $semantic-info;
+$manage_event_card__closed-color: $white;
+$manage_event_card__completed-color: rgba($semantic-success,0.1);
+$manage_event_card__under_review: $semantic-warning;
+
+$event-card-variants: (
+  active: $manage_event_card__active-color,
+  draft: $manage_event_card__draft-color,
+  booking_closed: $manage_event_card__closed-color,
+  completed: $manage_event_card__completed-color,
+  activation_requested: $manage_event_card__under_review,
+);
+
+%active-draft-badge {
+  color: $white;
+  border: 1px solid rgba($white, 0.6);
+}
+
+%cancel-badge {
+  background-color: $semantic-danger;
+  color: $white;
+}
+
+%completed-badge {
+  background-color: $white;
+  color: $white;
+}
+
+.manage_event_card {
+  max-width: $card-width-variant-md;
+  width: 100%;
+  margin-right: 16px;
+  margin-bottom: 20px;
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+
+  &:nth-child(even) {
+    margin-right: 0;
+  }
+
+  .manage_event_card__header {
+    height: 36px;
+  }
+
+  .manage_event_card-event-date {
+    position: relative;
+    top: -1px;
+  }
+
+  .manage_event_card_label {
+    .card_dropdown_menu {
+      display: none;
+    }
+
+    &:hover {
+      .card_dropdown_menu {
+        display: flex;
+      } 
+    }
+  }
+
+  @each $variant, $color in $event-card-variants {
+    &.manage_event_card__#{$variant} {
+      .manage_event_card__header {
+        background-color: $color;
+        border-bottom: 1px;
+        border-bottom-style: solid;
+        border-color: transparent;
+      }
+
+      @if $variant == 'draft' {
+        .manage_event_card__header {
+          span {
+            color: $white;
+          }
+        } 
+      }
+
+      @if $variant == 'completed' {
+        .manage_event_card-badge {
+          @extend %completed-badge;
+        }
+      }
+
+      @if $variant == 'active' {
+        .manage_event_card__header {
+          border-bottom-color: $grey-200;
+        }
+
+        .manage_event_card_title {
+          padding-top: 18px;
+        }
+
+        .manage_event_card_date {
+          padding-bottom: 18px;
+        }
+        
+        .manage_event_card-image-wrapper{
+          padding-left: 16px;
+          padding-right: 16px;
+          height: 125px;
+
+          img {
+            border-radius: $border-radius;  
+          }
+        }
+      }
+
+      @if $variant == 'booking_closed' {
+        .manage_event_card__header {
+          border-bottom-color: $grey-200;
+        }   
+
+        .manage_event_card-type {
+          color: $grey-600;
+        }
+      }
+    }
+  }
+
+  .manage_event_card-badge {
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+
+  .manage_event_card-image-wrapper {
+    height: $manage_event_card-img-height;
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .manage_event_card-vertical-divider {
+    height: 16px;
+  }
+}

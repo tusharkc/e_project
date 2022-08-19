@@ -1,0 +1,47 @@
+@import '~@doct-react/core/build/variables.scss';
+.event_section_testimonial_title {
+    font-size: 34px;
+    padding-top: 108px;
+}
+
+.event_testimonial_section_container {
+    margin-top: 186px;
+    background-color: rgba(0, 0, 0, 0.020);
+    height: 694px;
+}
+
+.event_testimonial_card {
+    min-width: 572px;
+    border: 1px solid #cdecf1;
+    background-color: $white;
+    border-radius: 24px;
+}
+.event_fraternity_post {
+    font-size: 14px;
+    padding-bottom: 60px;
+}
+
+.event_fraternity_name {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 118px;
+}
+
+.event_testimonial_content {
+    max-width: 100%;
+
+    & p {
+        max-width: 450px;
+        margin: 88px 60px 118px 60px;
+    }
+}
+.event_video_bg {
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 260px;
+}
+.bg_illustration_testimonials {
+    z-index: -2;
+    right: -300px;
+    bottom: 0px;
+}

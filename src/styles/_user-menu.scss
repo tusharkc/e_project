@@ -1,0 +1,118 @@
+.user-menu {
+  font-family: Roboto,sans-serif!important;
+  .user-information {
+    display: flex;
+    align-items: center;
+    min-height: 66px;
+    padding-left: 16px;
+    box-shadow: 0 6px 6px 0 #aaa;
+    margin-bottom: 20px;
+
+    .user-title {
+      padding-left: 10px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 80%;
+      font-size: 14px;
+    }
+  }
+
+  .user-avatar {
+    width: 40px;
+    min-width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #bdbdbd;
+    color: $white;
+  }
+
+  .user-links-heading {
+    border-top: 1px solid $grey-300;
+    padding-top: 10px;
+    display: block;
+    padding-left: 20px;
+    line-height: 16px;
+  }
+
+  .user-links {
+    font-size: 14px;
+
+    li {
+      padding-right: 15px !important;
+      border-bottom: 1px solid $grey-300;
+      margin-left: 20px !important;
+    }
+
+    .user-link {
+      padding: 14px 14px 14px 0;
+      display: block;
+      line-height: 21px;
+      color: #393939;
+      text-decoration: none;
+      width: 100%;
+      cursor: pointer;
+    }
+  }
+
+  .user-links-first-section {
+    li {
+      &:last-child {
+        border-bottom: 0 none;
+      }
+    }
+  }
+
+  .user-role {
+    margin-left: 42px;
+
+    p {
+      font-size: 12px;
+    }
+
+    .date {
+      display: none;
+    }
+  }
+
+  .user-menu-close-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    transition: 0.3s ease;
+    cursor: pointer;
+    margin-top: 10px;
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.04);
+    }
+    svg {
+      width: 40px;
+      height: 40px;
+    }
+  }
+}
+
+
+.user-login-menu {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  min-width: 180px;
+  box-shadow: 0px 2px 1px rgba($black, 3%);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 6px !important;
+  top: 12px;
+  text-align: left;
+  background: white;
+
+  li {
+    padding: 6px 16px;
+    cursor: pointer;
+  }
+}

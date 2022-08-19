@@ -1,0 +1,10 @@
+export { default as Banner } from './Banner';
+export { default as WhatWeProvide } from './WhatWeProvide';
+export { default as HowWeGonnaDoItSection } from './HowWeGonnaDoItSection';
+export { default as HowDocthubIsDifferentSection } from './HowDocthubIsDifferentSection';
+export { default as ReasonToTrust } from './ReasonToTrust';
+export { default as OurPartnersSection } from './OurPartnersSection';
+export { default as PricingModel } from './PricingModel';
+export { default as SectionTestimonials } from './SectionTestimonials';
+export { default as Form } from './Form/Form';
+export { default as SectionCTA } from './SectionCTA';

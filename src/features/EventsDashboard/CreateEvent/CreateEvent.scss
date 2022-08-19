@@ -1,0 +1,147 @@
+@import '~@doct-react/core/build/variables.scss';
+@import '../../../styles/variable.scss';
+
+$commonGapAround30px: 34px;
+$headerHeight: 52px;
+
+$defaultTextColor: $grey-600;
+
+$activeBgColor: $white;
+$activeTextColor: $grey-800;
+$gray-100: #F9F9F9;
+
+$counterDefaultBgColor: rgba($black, 0.06);
+$counterDefaultTextColor: $defaultTextColor;
+
+$counterActiveBgColor: $primary;
+$counterActiveTextColor: $white;
+
+$counterCompletedColor: $primary-100;
+$counterCompletedTextColor: $primary;
+
+$header-zIndex: 100;
+
+
+// Common
+.pt-3x {
+    padding-top: $commonGapAround30px;
+}
+
+.vh-without-header {
+    min-height: calc(100vh - #{$headerHeight});
+}
+
+.create-event-header {
+    z-index: $header-zIndex;
+}
+
+
+// steps related style
+.steps-vertical-list-container {
+    position: sticky;
+    top: calc(54px + 34px);
+}
+
+// vertical steps
+.steps-vertical-list-item {
+    padding-left: 20px;
+    transition: $transition;
+
+    .steps-vertical-list-text {
+        color: $defaultTextColor;
+        transition: $transition;
+    }
+
+    .steps-vertical-list-item-index-counter {
+        transition: $transition;
+        background-color: $counterDefaultBgColor;
+        color: $counterDefaultTextColor;
+        width: 24px;
+        min-width: 24px;
+        height: 24px;
+        border-radius: 50%;
+    }
+
+    &.steps-vertical-list-item-active {
+        background-color: $activeBgColor;
+
+        .steps-vertical-list-text {
+            color: $activeTextColor;
+        }
+
+         .steps-vertical-list-item-index-counter {
+             background-color: $counterActiveBgColor;
+             color: $counterActiveTextColor;
+         }
+    }
+
+    &.steps-vertical-list-item-completed {
+        .steps-vertical-list-item-index-counter {
+            background-color: $counterCompletedColor;
+            color: $counterCompletedTextColor;
+        }
+
+        svg {
+            color: $counterCompletedTextColor;
+        }
+    }
+
+
+    & + .steps-vertical-list-item {
+        .steps-vertical-list-item-index-counter {
+                    
+            &:before {
+                content: "";
+                position: absolute;
+                height: 20px;
+                width: 1px;
+                background: $primary-100;
+                left: 50%;
+                top: -24px;
+            }
+        }
+    }
+
+    .steps-vertical-list-text-content {
+        top: 1px; // for match Adobe Xd alignment
+    }
+}
+
+.background_white {
+    background: $activeBgColor;
+    border-radius: 6px;
+    width: 100%;
+}
+
+.background_grey {
+    background: $gray-100;
+    border-radius: 6px;
+    width: 100%;
+}
+.css-vqmohf-MuiButtonBase-root-MuiRadio-root.Mui-checked {
+    color: $primary !important;
+}
+
+.css-j204z7-MuiFormControlLabel-root .MuiFormControlLabel-label.Mui-disabled {
+    color: $grey-400 !important;
+}
+
+.background_transparent {
+    background-color: transparent !important;
+}
+
+.text-truncate {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.text-truncate-two-lines {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.text_overview_description .ql-editor {
+    overflow: auto;
+    max-height: 140px !important;
+}

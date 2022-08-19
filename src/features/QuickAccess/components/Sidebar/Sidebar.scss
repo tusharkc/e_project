@@ -1,0 +1,40 @@
+@import '~@doct-react/core/build/variables.scss';
+@import '../../../../styles/variable.scss';
+
+$sidebar_nav_height: 52px;
+
+.sidebar_nav {    
+    padding: 0 16px;
+    height: $sidebar_nav_height;
+    color: initial;
+    border-radius: $border-radius;
+    transition: $transition;
+    
+    &:hover {
+        background-color: $grey-100;
+        .text-label-1 {
+            font-weight: 500;
+        }
+    }
+
+    &.sidebar_nav_active {
+        font-weight: medium;
+        background-color: $grey-100;
+        .text-label-1 {
+            font-weight: 500;
+        }
+    }
+
+    &.sidebar_nav_disabled {
+        opacity: .6;
+        pointer-events: none;
+    }
+
+    img {
+        margin-right: 12px;
+    }
+}
+.dashboard_sidebar_icons{
+    width: 24px;
+    height: 24px;
+}

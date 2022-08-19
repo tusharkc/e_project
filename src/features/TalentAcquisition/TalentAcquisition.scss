@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;900&display=swap'); 
+
+
+@import "./styles/Header.modules.scss";
+@import "./styles/Banner.modules.scss";
+@import "./styles/SideContent.modules.scss";
+@import "./styles/Card.modules.scss";
+@import "./styles/Pricing.module.scss";
+@import "./styles/Testimonial.modules.scss";
+@import "./styles/Form.modules.scss";
+@import "./styles/illustration.modules.scss";
+
+.page_talent_acquisition {
+  font-family: Montserrat, sans-serif !important;
+
+  main {
+    overflow-x: hidden;
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+  }
+  
+  .reason_to_trust_subtitle {
+    line-height: 2;
+  }
+
+  h1 {
+    font-size: 60px !important;
+  }
+  
+  h2 {
+    font-size: 40px !important;
+  }
+  
+  h3 {
+    font-size: 30px !important;
+  }
+  
+  .full-height-without-header {
+    min-height: calc(100vh - 64px);
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .section_cta {
+    margin-top: 50px;
+    line-height: 50px;
+    font-size: 27px !important;
+  }
+  
+  .numbers {
+    font-weight: 600;
+    font-size: 50px !important;
+  }
+  
+}
+
+@media (max-width: 767px) {
+  .page_talent_acquisition {
+    h1 {
+      font-size: 30px !important;
+    }
+
+    h2 {
+      font-size: 25px !important;
+    }
+
+    h3 {
+      font-size: 20px !important;
+    }
+
+    h4 {
+      font-size: 15px !important;
+    }
+
+    .section_cta {
+      line-height: 30px;
+      font-size: 20px !important;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .page_talent_acquisition{
+    .full-height-without-header {
+      min-height: 650px;
+    }
+
+    h1 {
+      font-size: 60px !important;
+    }
+
+    h2 {
+      font-size: 25px !important;
+    }
+
+    h3 {
+      font-size: 20px !important;
+    }
+
+    h4 {
+      font-size: 15px !important;
+    }
+  }
+}

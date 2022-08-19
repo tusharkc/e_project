@@ -1,0 +1,76 @@
+@import  '../../../styles/variable.scss';
+@import '~@doct-react/core/build/variables.scss';
+
+
+$tost-height: 64px;
+$tost-radius: $border-radius;
+$icon-base-bg: $white;
+$tost-width: 360px;
+
+.tost-container {
+    top: 24px;
+    right: 24px;
+    width: auto;
+    display: flex;
+    left: 0;
+    right: 24px;
+    justify-content: flex-end;
+    z-index: $z-index-above-all-elements + 1;
+}
+
+.tost {
+    max-width: $tost-width;
+    height: $tost-height;
+    padding: 10px 4px 10px 12px;
+    border-radius: $tost-radius;
+
+    &.tost_positive {
+        background-color: $semantic-success;        
+        svg {
+            color: $semantic-success;
+        }
+    }
+
+    &.tost_danger {
+        background-color: $semantic-danger;        
+        svg {
+            color: $semantic-danger;
+        }
+    }
+
+    &.tost_informative {
+        background-color: $semantic-info;   
+
+        svg {
+            color: $semantic-info;
+        }
+    }
+
+    &.tost_error {
+        background-color: $semantic-danger;   
+
+        svg {
+            color: $semantic-danger;
+        }
+    }
+
+    .tost_base_icon {
+        min-width: 36px;
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        background-color: $icon-base-bg;             
+    }
+
+    .tost_vertical_divider {
+        width: 1px;
+        height: 100%;
+        background-color: rgba($black,0.06);
+    }
+
+    .icon-white {
+        svg {
+            color: $white;
+        }
+    }
+}

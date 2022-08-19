@@ -1,0 +1,19 @@
+@import '~@doct-react/core/build/variables.scss';
+.category_name{
+    width: 296px !important;
+}
+.categories_start_date{
+    width: 303px !important;
+}
+.category_body_container{
+    width: 328px;
+    height: 232px;
+}
+.more_icon{
+    transform: rotate(90deg);
+}
+.more_icon{
+.doct-button.doct-contained-button.doct-inverse-button {
+    background-color: $grey-300 !important;   
+}
+}

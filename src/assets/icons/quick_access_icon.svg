@@ -1,0 +1,9 @@
+<svg id="dashboard_black_24dp" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <path id="bounding" d="M0,0H24V24H0Z" fill="none"/>
+  <g id="art">
+    <path id="Path_1298" data-name="Path 1298" d="M4,13h6a1,1,0,0,0,1-1V4a1,1,0,0,0-1-1H4A1,1,0,0,0,3,4v8A1,1,0,0,0,4,13Z" fill="#32b3c9"/>
+    <path id="Path_1299" data-name="Path 1299" d="M13,4V8a1,1,0,0,0,1,1h6a1,1,0,0,0,1-1V4a1,1,0,0,0-1-1H14A1,1,0,0,0,13,4Z" fill="#67c6d8"/>
+    <path id="Path_1300" data-name="Path 1300" d="M4,21h6a1,1,0,0,0,1-1V16a1,1,0,0,0-1-1H4a1,1,0,0,0-1,1v4A1,1,0,0,0,4,21Z" fill="#67c6d8"/>
+    <path id="Path_1301" data-name="Path 1301" d="M14,21h6a1,1,0,0,0,1-1V12a1,1,0,0,0-1-1H14a1,1,0,0,0-1,1v8A1,1,0,0,0,14,21Z" fill="#32b3c9"/>
+  </g>
+</svg>

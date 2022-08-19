@@ -1,0 +1,32 @@
+.btn_membership_information_submission {
+    bottom: 0px;
+}
+
+.del-btn {
+    background-image: url("../../assets/icons/icon_del.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.check-bg {
+    padding: 5px;
+    background-color: #0000000d;
+    border-radius: 50%;
+}
+
+.filter_location_inputs .MuiSvgIcon-root {
+    display: none !important;
+}
+
+.membership-info-border {
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.membership_info_form_section {
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+// .doct-button.doct-primary-button{
+//     background-color: #EA4335 !important;
+// }

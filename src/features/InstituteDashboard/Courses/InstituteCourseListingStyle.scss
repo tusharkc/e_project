@@ -1,0 +1,23 @@
+@import "~@doct-react/core/build/variables.scss";
+
+.rejected_buttons {
+    right: 8px;
+    bottom: 12px;
+}
+
+.delete_course_btn {
+    color: $semantic-danger !important;
+}
+.keep_draft_btn {
+    color: $semantic-info !important;
+}
+
+.card_action_menu_options div {
+    transform: rotate(90deg);
+}
+
+.card_action_menu_options {
+    & .doct-button.doct-contained-button.doct-secondary-button {
+        background-color: rgb(255, 255, 255);
+    }
+}

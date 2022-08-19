@@ -1,0 +1,100 @@
+export const numberStaticData = [
+  {
+    numbersTextColor: '#4389FF',
+    platformNameColor: '#242424',
+    platformName: 'Jobs',
+    cardBgColor: 'rgba(67, 137, 255, 0.1)',
+    cardCount: '20,000',
+    hasBorderColor: false,
+    cardBorderColor: 'red',
+    dataAccessKey: 'jobsCount',
+  },
+
+  {
+    numbersTextColor: '#00BE75',
+    platformNameColor: '#242424',
+    platformName: 'Courses',
+    cardBgColor: 'rgba(0, 190, 117, 0.1)',
+    cardCount: '18,000',
+    hasBorderColor: false,
+    cardBorderColor: 'red',
+    dataAccessKey: 'coursesCount',
+  },
+
+  {
+    numbersTextColor: '#FF006C',
+    platformNameColor: '#242424',
+    platformName: 'Events',
+    cardBgColor: 'rgba(255, 0, 108, 0.1)',
+    cardCount: '150',
+    hasBorderColor: false,
+    cardBorderColor: 'red',
+    dataAccessKey: 'eventsCount',
+  },
+
+  {
+    numbersTextColor: '#FFB200',
+    platformNameColor: '#242424',
+    platformName: 'Blogs',
+    cardBgColor: '',
+    cardCount: '150',
+    hasBorderColor: true,
+    cardBorderColor: '#FFEFC9',
+    dataAccessKey: 'blogsCount',
+  },
+
+  {
+    numbersTextColor: '#4389FF',
+    platformNameColor: '#242424',
+    platformName: 'Resume uploads',
+    cardBgColor: '',
+    cardCount: '35,000',
+    hasBorderColor: true,
+    cardBorderColor: '#D8E6FF',
+    dataAccessKey: 'resume',
+  },
+
+  {
+    numbersTextColor: '#00A0C0',
+    platformNameColor: '#242424',
+    platformName: 'Hospitals',
+    cardBgColor: '',
+    cardCount: '8000',
+    hasBorderColor: true,
+    cardBorderColor: '#BFEDF7',
+    dataAccessKey: 'hospitalsCount',
+  },
+
+  {
+    numbersTextColor: '#FFFFFF',
+    platformNameColor: '#FFFFFF',
+    platformName: 'Recruiters',
+    cardBgColor: 'rgba(67, 137, 255, 1)',
+    cardCount: '6000',
+    hasBorderColor: false,
+    cardBorderColor: 'red',
+    dataAccessKey: 'recruiters',
+  },
+
+  {
+    numbersTextColor: '#FFFFFF',
+    platformNameColor: '#FFFFFF',
+    platformName: 'Institutes',
+    cardBgColor: 'rgba(55, 206, 148, 1)',
+    cardCount: '3,500',
+    hasBorderColor: false,
+    cardBorderColor: 'red',
+    dataAccessKey: 'instituesCount',
+  },
+
+  {
+    numbersTextColor: '#FFFFFF',
+    platformNameColor: '#FFFFFF',
+    platformName: 'Associations',
+    cardBgColor: 'rgba(255, 134, 167, 1)',
+    cardCount: '200',
+    hasBorderColor: false,
+    cardBorderColor: 'red',
+    dataAccessKey: 'associationsCount',
+  },
+];

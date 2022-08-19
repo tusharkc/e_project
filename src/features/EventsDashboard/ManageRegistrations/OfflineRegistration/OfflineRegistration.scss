@@ -1,0 +1,17 @@
+@import '../../../../styles/toaster.scss';
+
+.view-details-modal-info {
+    min-width: 98px;
+}
+
+.meta-info-item {
+    & + .meta-info-item {
+           &:before {
+                content: "•";
+                position: relative;
+                left: -8px;
+                font-size: 24px;
+                vertical-align: middle;
+           }
+    }
+}

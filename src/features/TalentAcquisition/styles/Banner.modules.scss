@@ -1,0 +1,25 @@
+.banner_content {
+  margin-top: 85px;
+}
+
+@media (max-width: 767px) {
+  .responsive-talant_acquistion_img {
+    max-width: 132px;
+    height: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .banner_content {
+    margin-top: 90px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .banner_illustration {
+    right: 40px;
+    top: 187px;
+    width: 533px;
+    position: absolute;
+  }
+}

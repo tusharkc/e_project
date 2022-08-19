@@ -1,0 +1,21 @@
+.bg-semantic-info-01 {
+    background-color: rgba($semantic-info, 0.1);
+}
+
+.bg-low-opacity-black {
+    background-color: rgba($black, 0.03);
+}
+
+.bg-position-low-opacity {
+    background-color: rgba($semantic-success, 0.16);
+}
+
+.border-low-opacity-black {
+    border-color: rgba($black, 0.03);
+}
+
+@media (min-width: 768px) {
+    .bg-grey-100-sm {
+        background-color: $grey-100;
+    }
+}

@@ -1,0 +1,53 @@
+.features_card_title {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.features_card_subtitle {
+    font-size: 14px;
+    max-width: 180px;
+}
+
+.card_body {
+    min-width: 385px;
+    margin: 20px;
+    margin-bottom: 70px;
+    padding: 10px;
+}
+
+.section-features-title {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.dashboard_video_section {
+    margin-top: 100px;
+}
+.here_you_can_section_container{
+    min-height: 780px;
+}
+.dashboard_features_button {
+    background-color: transparent;
+    border: none;
+    color: #007aff;
+    font-weight: bold;
+    display: none;
+}
+
+.card_body:hover .dashboard_features_button {
+    display: flex;
+}
+
+.card_body:hover {
+    border: 1px solid #007aff;
+    border-radius: 18px;
+    height: 160px;
+}
+
+.card_margin_3 {
+    margin-left: 80px;
+}
+
+.card_margin_4 {
+    margin-left: -80px;
+}

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="258" height="62" viewBox="0 0 258 62">
+  <g id="TICKET" transform="translate(-608 -188)">
+    <rect id="padding" width="258" height="36" rx="6" transform="translate(608 200)" opacity="0.05"/>
+    <circle id="Ellipse_129" data-name="Ellipse 129" cx="31" cy="31" r="31" transform="translate(688 188)" fill="#fff" opacity="0.4"/>
+    <text id="Regular" transform="translate(758 222)" fill="#aaa" font-size="10" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Regular</tspan></text>
+    <text id="Spot-on" transform="translate(813 222)" fill="#aaa" font-size="10" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Spot-on</tspan></text>
+    <text id="Early_Bird" data-name="Early Bird" transform="translate(698 222)" fill="#242424" font-size="10" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Early Bird</tspan></text>
+    <rect id="Rectangle_1174" data-name="Rectangle 1174" width="24.143" height="4.857" rx="2" transform="translate(642.857 216.071)" opacity="0.1"/>
+    <g id="_Ticket_-_confirmation_number_black_24dp" data-name=" Ticket - confirmation_number_black_24dp" transform="translate(617.714 209.57)" opacity="0.1">
+      <g id="Group_1912" data-name="Group 1912" transform="translate(0 0)">
+        <rect id="Rectangle_1029" data-name="Rectangle 1029" width="16.86" height="16.86" fill="none"/>
+      </g>
+      <g id="Group_1915" data-name="Group 1915" transform="translate(2.409 3.279)">
+        <g id="Group_1914" data-name="Group 1914" transform="translate(0 0)">
+          <g id="Group_1913" data-name="Group 1913" transform="translate(0 0)">
+            <path id="Subtraction_17" data-name="Subtraction 17" d="M10.839,10.435H1.607A1.608,1.608,0,0,1,0,8.829V6.821a1.607,1.607,0,0,0,1.607-1.6,1.6,1.6,0,0,0-1.6-1.607v-2A1.6,1.6,0,0,1,1.607,0h9.232a1.609,1.609,0,0,1,1.607,1.607v2a1.6,1.6,0,1,0,0,3.209V8.829A1.608,1.608,0,0,1,10.839,10.435ZM6.223,4.279c-.776,0-1.407.421-1.407.939s.631.938,1.407.938,1.4-.421,1.4-.938S7,4.279,6.223,4.279Z"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

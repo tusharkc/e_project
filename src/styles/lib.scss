@@ -1,0 +1,85 @@
+/*
+* here the style which is clashing in app side
+* added override style
+* this changes need to impliment through lib side
+*/
+
+// Date picker
+.MuiPickersDay-root {
+    border-radius: 50% !important;
+}
+
+
+// Custom error
+.custom-error {
+    .MuiFormHelperText-root.Mui-error,
+    .MuiFormLabel-root {
+        color: #EA4335;
+    }   
+
+    .MuiFormHelperText-root.Mui-error{
+        font-size: 11px;
+        line-height: 14px;
+        padding-left: 12px;
+    }
+
+    .MuiFilledInput-root {
+        &:before {
+            border-bottom-color: #d32f2f;
+        }
+    }
+}
+
+.white-body-modal {
+    .doct-modal-body  {
+        background-color: $white !important;
+    }
+}
+
+.action-menu {
+    .doct-contained-button.doct-secondary-button {
+        background-color: transparent !important;
+
+        &:hover {
+            background-color: rgba(0, 0, 0, 0.05) !important;
+        }
+    }
+}
+
+.doct-checkbox {
+    &.Mui-checked {
+        color: #00A0C0 !important;
+    }
+
+    &.MuiCheckbox-root {
+        padding: 9px !important;
+    }
+ }
+
+ .doct-input {
+    &.disabled {
+        .MuiAutocomplete-endAdornment {
+            display: none;
+        }
+    }
+ }
+
+ .MuiPaginationItem-root {
+     &.MuiPaginationItem-circular {
+        border-radius: 16px;
+     }
+ }
+
+ .doct-dropdown-select {
+     .MuiInputBase-root {
+         font-size: 14px;
+     }
+ }
+
+ .doct-action-menu-item.MuiMenuItem-root{
+    &.text-danger {
+        color: #EA4335 !important;
+    }
+ }
+
+ 

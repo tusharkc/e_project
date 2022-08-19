@@ -1,0 +1,18 @@
+.video-player-icon {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 111;
+    cursor: pointer;
+    width: auto;
+
+    svg {
+        color: #fff;
+    }
+}
+
+.video-player {
+    height: 300px;
+    padding-top: 30px;
+}

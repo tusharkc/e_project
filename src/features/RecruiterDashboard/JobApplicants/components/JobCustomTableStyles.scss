@@ -1,0 +1,100 @@
+.applicant_status_select_status_shortlist {
+    & .doct-dropdown-select {
+        height: 36px !important;
+        padding: 0px 10px 0px 10px !important;
+        background-color: rgba(0, 160, 192, 0.16) !important;
+        border-radius: 18px !important;
+    }
+
+    & .MuiInputBase-colorPrimary {
+        background-color: transparent !important;
+    }
+
+    & #customized-select {
+        color: rgba(0, 160, 192, 1);
+        padding-right: 20px !important;
+    }
+
+    & .css-moucs-MuiSelect-select-MuiInputBase-input {
+        padding: 0px !important;
+    }
+}
+
+.applicant_status_select_status_default {
+    & .doct-dropdown-select {
+        height: 36px !important;
+        padding: 0px 10px 0px 10px !important;
+        background-color: transparent !important;
+        border-radius: 18px !important;
+        border: 1px solid rgba(0, 0, 0, 0.247) !important;
+    }
+
+    & .MuiInputBase-colorPrimary {
+        background-color: transparent !important;
+        border: none !important;
+    }
+
+    & #customized-select {
+        color: #717171;
+        padding-right: 20px !important;
+    }
+
+    & .css-moucs-MuiSelect-select-MuiInputBase-input {
+        padding: 0px !important;
+    }
+}
+
+.applicant_status_select_status_reject {
+    & .doct-dropdown-select {
+        height: 36px !important;
+        padding: 0px 10px 0px 10px !important;
+        background-color: rgba(234, 67, 53, 0.12) !important;
+        border-radius: 18px !important;
+    }
+
+    & .MuiInputBase-colorPrimary {
+        background-color: transparent !important;
+        border: none !important;
+    }
+
+    & #customized-select {
+        color: rgba(234, 67, 53, 1);
+        padding-right: 20px !important;
+    }
+
+    & .css-moucs-MuiSelect-select-MuiInputBase-input {
+        padding: 0px !important;
+    }
+}
+
+.applicant_status_select_status_save {
+    & .doct-dropdown-select {
+        height: 36px !important;
+        padding: 0px 10px 0px 10px !important;
+        background-color: rgba(0, 199, 82, 0.08) !important;
+        border-radius: 18px !important;
+    }
+
+    & .MuiInputBase-colorPrimary {
+        background-color: transparent !important;
+        border: none !important;
+    }
+
+    & #customized-select {
+        color: rgba(0, 199, 82, 1) !important;
+        padding-right: 20px !important;
+    }
+
+    & .css-moucs-MuiSelect-select-MuiInputBase-input {
+        padding: 0px !important;
+    }
+}
+
+[data-value*="UnRead"] {
+    display: none !important;
+}
+
+.collapsible_content_container {
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+}

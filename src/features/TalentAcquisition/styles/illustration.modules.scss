@@ -1,0 +1,20 @@
+.how_docthub_diff_illustration {
+  position: absolute;
+}
+
+@media (max-width: 767px) {
+  .illustration_img {
+    max-width: 75%;
+  }
+
+  .reason_to_trust {
+    margin-left: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .reason_to_trust {
+    margin-left: 90px;
+    margin-bottom: 180px;
+  }
+}

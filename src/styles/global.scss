@@ -1,0 +1,219 @@
+.box-shadow {
+    box-shadow: 0px 1px 2px #00000008;
+}
+
+.border-radius-tl {
+    border-top-left-radius: $border-radius;
+}
+
+.border-radius-tr {
+    border-top-right-radius: $border-radius;
+}
+
+.border-radius-bl {
+    border-bottom-left-radius: $border-radius;
+}
+
+.border-radius {
+    border-bottom-right-radius: $border-radius;
+}
+
+.border-radius {
+    @extend .border-radius-bl;
+    @extend .border-radius;
+    @extend .border-radius-tl;
+    @extend .border-radius-tr;
+}
+
+.border-1px {
+    border-width: 1px;
+    border-style: solid;
+}
+
+.border-white {
+    border-color: $white;
+}
+
+.border-top-1px {
+    border-top-width: 1px;
+    border-top-style: solid;
+}
+
+.border-bottom-1px {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+.last-child-no-border {
+    .border-bottom-1px {
+        &:last-child {
+            border-bottom-width: 0;
+        }
+    }
+}
+
+.border-bottom-primary-100 {
+    border-bottom-color: $primary-100;
+}
+
+.line-divider {
+    height: 1px;
+}
+
+.line-divider-2px {
+    height: 2px;
+    min-height: 2px;
+}
+
+.text-initial {
+    text-transform: initial !important;
+}
+
+.paper-with-radius-shadow {
+    background-color: $white;
+    border-radius: $border-radius;
+    box-shadow: 0px 1px 2px #00000008;
+}
+
+.higher-z-index {
+    z-index: $higher-z-index;
+}
+
+.full-page-loader {
+    position: fixed;
+    @extend .higher-z-index;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.app-loader {
+    @extend .full-page-loader;
+    background-color: $white;
+}
+
+.content-loading {
+    .page-loading {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        min-height: 30px;
+    }
+}
+
+.absolute-center {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.white-color-svg {
+    svg {
+        color: $white;
+    }
+}
+
+.loader-min-height {
+    min-height: 46px;
+}
+
+.top-0 {
+    top: 0;
+}
+
+
+.card_dropdown_menu {
+    width: 246px;
+    right: 0;
+    top: 18px;
+    box-shadow: $box-shadow;
+    border: 1px solid $grey-300;
+    background: $white;
+    border-radius: $border-radius;
+    overflow: hidden;
+
+    .card_dropdown_menu-item {
+        padding: 12px 16px;
+
+        &:hover {
+            background-color: $grey-100;
+        }
+    }
+}
+
+.slider-flex-slick-track {
+    .slick-track {
+        display: flex;
+    }
+}
+
+.logo-slider {
+    .slick-slide {
+        height: auto;
+        div {
+            height: 100%;
+        }
+    }
+}
+
+.img-fluid {
+    max-width: 100% !important;
+}
+
+.page-loading {
+    width: auto; // width 100vh it's showing horizontal scrollbar
+}
+
+.pointer-event-none {
+    pointer-events: none;
+}
+
+.pointer-event-initial {
+    pointer-events: initial;
+}
+
+.disabled_modal_outside_click {
+    .MuiBackdrop-root {
+        pointer-events: none;
+    }
+}
+
+.modal_hide_secondary_button {
+    .doct-modal-footer {
+        .doct-secondary-button  {
+            display: none !important;
+        }
+    }
+}
+
+.modal-loading {
+    .doct-modal-footer  {
+        @extend .pointer-event-none;
+    }
+}
+
+.modal-content-position-relative {
+    .doct-modal-content-wrapper {
+        position: relative;
+    }
+}
+
+.loader-transparent-bg {
+    background-color: rgba($white, 0.5);
+}
+
+.inside-modal-loader {
+    z-index: 1;
+    top: 47px;
+}
+
+.disable-with-low-opacity {
+    pointer-events: none;
+    opacity: 0.5;
+}

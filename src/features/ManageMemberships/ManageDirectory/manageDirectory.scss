@@ -1,0 +1,35 @@
+.user_detail_profile_img {
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.user_detail_section_1 {
+    max-width: 280px;
+}
+.user_detail_section_2 {
+    max-width: 250px;
+}
+.user_detail_section_3 {
+    max-width: 223px;
+}
+
+.delete_member_modal .doct-primary-button {
+    background-color: #ea4335;
+}
+
+.delete_member_modal .doct-modal-footer {
+    background-color: #f4f4f4 !important;
+}
+
+.filter_search_input .MuiSvgIcon-root {
+    display: none !important;
+}
+
+.upload-excel-modal-btn {
+    min-width: 100px;
+    max-height: 36px;
+    background-color: #00a0c0;
+    border-radius: 22px;
+}

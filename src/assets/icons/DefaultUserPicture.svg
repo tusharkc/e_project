@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54">
+  <g id="DefaultUserPicture" transform="translate(-516 -321)">
+    <g id="Image" transform="translate(516 321)" fill="#fff" stroke="rgba(0,0,0,0.06)" stroke-width="1">
+      <rect width="54" height="54" rx="27" stroke="none"/>
+      <rect x="0.5" y="0.5" width="53" height="53" rx="26.5" fill="none"/>
+    </g>
+    <path id="Icon_material-person" data-name="Icon material-person" d="M18,18a6,6,0,1,0-6-6A6,6,0,0,0,18,18Zm0,3c-4.005,0-12,2.01-12,6v3H30V27C30,23.01,22.005,21,18,21Z" transform="translate(525 330)" fill="#aaa"/>
+  </g>
+</svg>

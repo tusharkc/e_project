@@ -1,0 +1,87 @@
+$narrow-gutter: 8px;
+
+.container-height-without-header {
+    min-height: calc(100vh - 64px);
+}
+
+.panel-action-height {
+    height: 54px;
+}
+
+.panel-height-4x {
+    height: 46px;
+}
+
+.panel-height-5x {
+    height: 52px;
+}
+
+.action-bar-height {
+    @extend .panel-action-height;
+}
+
+.manage_page__main_area {
+    min-height: calc(100vh - (54px + 64px + 36px));
+}
+.manage_page {
+
+    &__action_bar {
+        position: sticky;
+        top: 64px;
+        z-index: 1;
+    }
+
+    &__gap_top {
+        padding-top: 24px;
+    }
+
+    &__sidebar {
+        position: sticky;
+        top: calc(64px + 54px + 24px);
+    } 
+
+    &__sidebar_pr {
+        padding-right: 24px;
+    }
+
+    &__card_grid {
+        max-width: 672px;
+    }
+}
+
+.container-2xx {
+    max-width: 278px;
+    width: 100%;
+}
+
+.container-3xx {
+    max-width: 328px;
+    width: 100%;
+}
+
+.container-4xx {
+    max-width: 450px;
+    width: 100%;
+}
+
+.common-box-pannel {
+    display: flex;
+    height: 64px;
+    align-items: center;
+}
+
+.common-box-panel-h-sm {
+    display: flex;
+    height: 36px;
+    align-items: center;
+}
+
+.narrow-gutter {
+    .row {
+        margin: 0 -#{$narrow-gutter/2};
+
+        [class*="col"] {
+            padding: 0 #{$narrow-gutter/2};
+        }
+    }
+}

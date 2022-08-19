@@ -1,0 +1,39 @@
+// need to move this style to component side
+@import "~@doct-react/core/build/variables.scss";
+
+.doct-text-editor {
+    overflow: hidden;
+
+    &.quill {
+        .ql-container {
+            &.ql-snow {
+                background-color: rgba($white, 0.6);
+                transition: background 300ms ease;
+            }
+        }
+
+        &.quill-focused {
+            .ql-container {
+                &.ql-snow {
+                    background-color: $white;
+                }
+            }
+        }
+
+        .ql-toolbar {
+            padding-left: 0;
+            margin: 0 -5px;
+        }
+
+        .ql-formats {
+            margin-right: 0;
+            .ql-stroke {
+                stroke: $grey-600;
+            }
+
+            .ql-fill {
+                fill: $grey-600;
+            }
+        }
+    }
+}

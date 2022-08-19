@@ -1,0 +1,35 @@
+.card_status {
+    max-height: 36px;
+    border-radius: 6px;
+    margin-left: -8px;
+}
+
+.card_status_rejected {
+    background: #ffe3e094;
+}
+
+.card_status_published {
+    background: #7eacf92e;
+}
+
+.card_status_approval {
+    background: #ffc6412e;
+}
+
+.share_options_menu {
+    min-width: 260px;
+    background-color: white;
+    right: 50px;
+    top: 120px;
+    z-index: 100 !important;
+    color: black !important;
+}
+
+.share_options_menu a {
+    color: black !important;
+}
+
+.share_menu_sepration_line {
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.057);
+}

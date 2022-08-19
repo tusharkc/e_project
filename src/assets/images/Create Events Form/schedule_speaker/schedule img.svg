@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="94" height="94" viewBox="0 0 94 94">
+  <g id="Graphic" transform="translate(-740 -162)">
+    <rect id="bounding" width="94" height="94" transform="translate(740 162)" fill="none"/>
+    <g id="Art" transform="translate(757 179)">
+      <rect id="Rectangle_1022" data-name="Rectangle 1022" width="52" height="52" rx="3" transform="translate(-12 4)" fill="#d5e4ff"/>
+      <rect id="Rectangle_1022-2" data-name="Rectangle 1022" width="56" height="56" rx="3" transform="translate(-6 2)" fill="#c9dcff"/>
+      <rect id="Rectangle_1022-3" data-name="Rectangle 1022" width="60" height="60" rx="3" fill="#d5e4ff"/>
+      <rect id="Rectangle_1024" data-name="Rectangle 1024" width="22.143" height="2.857" rx="1.429" transform="translate(18.929 38.428)" fill="#fff"/>
+      <rect id="Rectangle_1025" data-name="Rectangle 1025" width="13.571" height="2.857" rx="1.429" transform="translate(22.929 43.428)" fill="#fff"/>
+      <path id="Icon_ionic-md-person" data-name="Icon ionic-md-person" d="M13.5,13.5A4.5,4.5,0,1,0,9,9,4.513,4.513,0,0,0,13.5,13.5Zm0,2.25c-2.981,0-9,1.519-9,4.5V22.5h18V20.25C22.5,17.269,16.481,15.75,13.5,15.75Z" transform="translate(16.5 8.5)" fill="#96bdff"/>
+      <rect id="Rectangle_1036" data-name="Rectangle 1036" width="24" height="24" rx="12" transform="translate(48 36)" fill="#98beff"/>
+      <path id="Path_1220" data-name="Path 1220" d="M16.667,11.667h-5v5H10v-5H5V10h5V5h1.667v5h5Z" transform="translate(49 37)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

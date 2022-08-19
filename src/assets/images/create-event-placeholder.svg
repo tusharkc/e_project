@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="154" height="154" viewBox="0 0 154 154">
+  <g id="Group_1952" data-name="Group 1952" transform="translate(-416 -196)">
+    <rect id="bounding" width="154" height="154" rx="6" transform="translate(416 196)" fill="#ef427e"/>
+    <g id="Group_1954" data-name="Group 1954">
+      <g id="Art" transform="translate(449 235)">
+        <path id="Path_1201" data-name="Path 1201" d="M0,0H88V46.749A8.25,8.25,0,0,1,79.748,55H8.25A8.25,8.25,0,0,1,0,46.749Z" transform="translate(0 21.999)" fill="#fff"/>
+        <rect id="Rectangle_1019" data-name="Rectangle 1019" width="87.998" height="2.75" transform="translate(0 21.999)" fill="#fff" opacity="0.16"/>
+        <path id="Subtraction_14" data-name="Subtraction 14" d="M88,16.5H0V8.255A8.264,8.264,0,0,1,8.253,0H16.5V1.374a6.876,6.876,0,1,0,13.751,0V0H57.746V1.374a6.877,6.877,0,1,0,13.753,0V0h8.255A8.257,8.257,0,0,1,88,8.255V16.5Z" transform="translate(0.003 5.499)" fill="#fff"/>
+        <path id="Union_38" data-name="Union 38" d="M0,15.56,5.83,9.722l7.78,7.78L31.111,0l5.83,5.838-17.5,17.494.006,0-5.838,5.83Z" transform="translate(26.169 34.037)" fill="#fff"/>
+        <path id="Path_1198" data-name="Path 1198" d="M4.125,0A4.125,4.125,0,0,1,8.25,4.125v2.75a4.125,4.125,0,0,1-8.25,0V4.125A4.125,4.125,0,0,1,4.125,0Z" transform="translate(19.25)" fill="#fff" opacity="0.7"/>
+        <path id="Path_1197" data-name="Path 1197" d="M4.125,0A4.125,4.125,0,0,1,8.25,4.125v2.75a4.125,4.125,0,0,1-8.25,0V4.125A4.125,4.125,0,0,1,4.125,0Z" transform="translate(60.498)" fill="#fff" opacity="0.7"/>
+      </g>
+      <g id="Group_1953" data-name="Group 1953" transform="translate(517 291.588)">
+        <rect id="Rectangle_1036" data-name="Rectangle 1036" width="28.235" height="28.235" rx="8" fill="#fff"/>
+        <path id="Path_1220" data-name="Path 1220" d="M18.725,12.843H12.843v5.882H10.882V12.843H5V10.882h5.882V5h1.961v5.882h5.882Z" transform="translate(2.059 2.059)" fill="#ef427e"/>
+      </g>
+    </g>
+  </g>
+</svg>

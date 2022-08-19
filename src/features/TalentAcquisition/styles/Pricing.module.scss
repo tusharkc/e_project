@@ -1,0 +1,56 @@
+.pricing_model_card {
+  background-color: #242424;
+  width: 468px;
+  // height: 247px;
+  border-radius: 10px;
+  color: white;
+}
+
+.pricing_model_card h4 {
+  font-size: 40px;
+}
+
+.pricing_model_card p {
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.pricing_model_card button {
+  color: white;
+  background-color: #00a0c0;
+  border-radius: 26px;
+  border: none;
+}
+
+@media (max-width: 767px) {
+  .pricing_model_card {
+    background-color: #242424;
+    max-width: 328px;
+    // width: 90vw;
+    // height: 247px;
+    border-radius: 10px;
+    color: white;
+  }
+
+  .pricing_model_card h4 {
+    font-size: 40px;
+    // width: 85%;
+  }
+
+  .pricing_model_card p {
+    font-size: 17px;
+  }
+
+  .pricing_model_card button {
+    color: white;
+    background-color: #00a0c0;
+    border-radius: 26px;
+    border: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .pricing_model_card {
+    max-width: 540px;
+  }
+}

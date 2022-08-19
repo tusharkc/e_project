@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="94" height="94" viewBox="0 0 94 94">
+  <g id="Default_PlaceHolder" data-name="Default PlaceHolder" transform="translate(-508 -313)">
+    <g id="Image" transform="translate(508 313)" fill="#fff" stroke="rgba(0,0,0,0.06)" stroke-width="1">
+      <rect width="94" height="94" rx="6" stroke="none"/>
+      <rect x="0.5" y="0.5" width="93" height="93" rx="5.5" fill="none"/>
+    </g>
+    <g id="corporate_fare_black_24dp" transform="translate(526.8 331.8)">
+      <rect id="Rectangle_1184" data-name="Rectangle 1184" width="56.4" height="56.4" fill="none"/>
+      <path id="Path_1322" data-name="Path 1322" d="M25.5,12.4V3H2V45.3H49V12.4ZM20.8,40.6H6.7V35.9H20.8Zm0-9.4H6.7V26.5H20.8Zm0-9.4H6.7V17.1H20.8Zm0-9.4H6.7V7.7H20.8ZM44.3,40.6H25.5V17.1H44.3ZM39.6,21.8H30.2v4.7h9.4Zm0,9.4H30.2v4.7h9.4Z" transform="translate(2.7 4.05)" fill="#aaa"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,5 @@
+<svg id="StatusCompleted" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+  <circle id="base" cx="9" cy="9" r="9" fill="#fff"/>
+  <path id="Path_800" data-name="Path 800" d="M0,0H18V18H0Z" fill="none"/>
+  <path id="Path_801" data-name="Path 801" d="M11,2a9,9,0,1,0,9,9A9,9,0,0,0,11,2ZM9.2,15.5,4.7,11,5.969,9.731,9.2,12.953l6.831-6.831L17.3,7.4Z" transform="translate(-2 -2)" fill="#00c752"/>
+</svg>

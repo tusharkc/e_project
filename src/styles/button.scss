@@ -1,0 +1,55 @@
+$button-radius: 26px;
+
+%round-button-base {
+    box-shadow: unset !important;
+    border-radius: $button-radius !important;
+}
+
+
+%circle-button-base {
+    width: 36px;
+    height: 36px;
+    border-radius: 50% !important;
+    min-width: unset !important;
+    box-shadow: unset !important;
+
+    .MuiButton-startIcon {
+        margin: 0;
+    }
+}
+
+
+.button-slate-blue {
+    @extend %round-button-base;
+    color: $white !important;
+    background-color: $semantic-info !important;
+
+    &.add-button {
+        min-width: 106px;
+        transition: .3s linear;
+    }
+}
+
+.circle-button {
+    @extend %circle-button-base;
+
+    &.MuiButtonBase-root {
+        background-color: $grey-200 !important;
+
+        &:hover {
+        background-color: $semantic-info !important;
+
+            .MuiButton-startIcon {
+                color: $grey-200 !important;
+            }
+        }
+    }
+
+    .MuiButton-startIcon {
+        color: $semantic-info !important;
+    }
+}
+
+.add-button-disabled {
+    opacity: .1;
+}

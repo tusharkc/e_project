@@ -1,0 +1,42 @@
+@import "~@doct-react/core/build/variables.scss";
+
+$event_card: #ef427e;
+$course_card: #00c77a;
+
+.events_bg {
+    background-color: $event_card;
+}
+
+.jobs_bg {
+    background-color: $semantic-info;
+}
+
+.courses_bg {
+    background-color: $course_card;
+}
+
+.quick_card_height {
+    height: 312px;
+}
+
+.info_label {
+    padding: 6px 12px;
+
+    &.info_label_border_x {
+        border-left: 1px solid $white;
+        border-right: 1px solid $white;
+    }
+
+    .box_border {
+        border-width: 2px;
+        border-style: solid;
+
+        &.box_border_white {
+            border-color: $white;
+        }
+    }
+}
+
+.events_inqury_modal .doct-modal-header .subtitle-1 {
+    color: #f4f4f4;
+}

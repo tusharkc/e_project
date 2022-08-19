@@ -1,0 +1,196 @@
+@import "../../../styles/variable.scss";
+@import "~@doct-react/core/build/variables.scss";
+
+$table-head-height: 34px;
+$tabel-row-height: 42px;
+
+.custom-tabel-row-head,
+.custom-tabel-row {
+    p:nth-of-type(1) {
+        font-size: 14px;
+    }
+    .status {
+        max-width: 86px;
+
+        &.created,
+        &.confirmed {
+            color: $grey-600;
+        }
+
+        &.cancelled {
+            color: $grey-400;
+        }
+
+        &.pending {
+            color: $semantic-warning;
+        }
+    }
+
+    .memberstatus {
+        &.active {
+            color: #00c752;
+        }
+
+        &.draft {
+            color: #ffb200;
+        }
+        &.inactive {
+            color: #717171;
+        }
+        &.renewalpending {
+            color: #aaaaaa;
+            font-style: italic;
+        }
+    }
+
+    .action {
+        max-width: 52px;
+        width: 100%;
+    }
+}
+
+.custom-tabel-row-head {
+    border-radius: $border-radius;
+}
+
+.custom-tabel-th {
+    min-height: $table-head-height;
+}
+
+.custom-tabel-row-wrapper {
+    border-radius: $border-radius;
+}
+
+.custom-tabel-row {
+    margin-top: 3px;
+    min-height: $tabel-row-height;
+
+    .custom-tabel-row-action-menu-column {
+        max-width: 52px;
+        height: 36px;
+        width: 100%;
+    }
+
+    .custom-tabel-row-action-menu {
+        height: 36px;
+        transform: rotate(90deg);
+    }
+}
+
+.custom-table-result-filter-counter {
+    min-width: 16px;
+    min-height: 16px;
+    font-size: 12px;
+    background: $semantic-info;
+    border-radius: 50%;
+    color: $white;
+    top: 4px;
+    left: 2px;
+}
+
+.custom-table-result-filter-container {
+    min-height: 40px;
+    .doct-chip {
+        .input-text {
+            text-transform: capitalize;
+        }
+    }
+}
+
+.custom-table-collapsible-bg {
+    background: rgba($black, 0.03);
+}
+
+.custom-table-with-action-footer {
+    padding-bottom: 86px;
+    transition: $transition;
+}
+
+.custom-tabel-collapse-btn {
+    bottom: 24px;
+    right: 24px;
+}
+
+.custom-tabel-collapse-btn-action-one {
+    bottom: 24px;
+}
+
+.custom-tabel-select {
+    .doct-dropdown-select {
+        max-width: 382px;
+    }
+}
+
+@media (max-width: 767px) {
+    .custom-tabel-row-head {
+        display: none !important;
+    }
+    .custom-tabel-row {
+        flex-wrap: wrap;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    .custom-tabel-row-el {
+        flex: auto;
+        position: relative;
+
+        &:before {
+            content: "";
+            height: 100%;
+            width: 1px;
+            background-color: $grey-300;
+            position: absolute;
+            left: -2px;
+        }
+
+        &:first-child {
+            &:before {
+                display: none;
+            }
+        }
+
+        &:nth-child(2) {
+            &:before {
+                display: none;
+            }
+        }
+
+        &:first-child {
+            width: 100%;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .custom-tabel-row-el {
+        flex: 1;
+    }
+
+    .custom-tabel-row {
+        .orderid {
+            min-width: 140px;
+        }
+    }
+}
+
+.dropdown-select {
+    .MuiSelect-select {
+        min-width: 200px;
+    }
+
+    &.dropdown-select-dashed {
+        border-bottom: 1px dashed $grey-600;
+    }
+}
+
+// MUI style break fixes
+.MuiList-root {
+    display: flex;
+    flex-flow: column;
+
+    .MuiMenuItem-root {
+        padding: 6px 16px;
+        justify-content: flex-start;
+    }
+}

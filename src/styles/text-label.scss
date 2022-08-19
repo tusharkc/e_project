@@ -1,0 +1,33 @@
+.text-label {
+    height: 18px;
+    display: inline-flex;
+    align-items: center;
+    padding: 0 3px;
+    font-weight: 500;
+    border-radius: 2px;
+
+    &__success {
+        background-color: $semantic-success;
+    }
+
+    &__white {
+        background-color: $white;
+    }
+    
+    &__danger {
+        background-color: $semantic-danger;
+    }
+
+    &__semantic-warning {
+        background-color: $semantic-warning;
+    }
+
+    &__outline {
+      border-width: 1px;
+      border-style: solid;
+    }
+
+    &__outline-grey {
+        border-color: $grey-600;
+    }
+}

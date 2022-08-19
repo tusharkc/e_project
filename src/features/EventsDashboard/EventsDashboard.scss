@@ -1,0 +1,18 @@
+.manage-attendees {
+    .attendeeid  {
+        max-width: 100px;
+    }
+    .attendeetype  {
+        min-width: 150px;
+    }
+    .orderstatus {
+        max-width: 100px;
+
+    }
+}
+
+.disable_modal_outside_click {
+    .MuiBackdrop-root {
+        pointer-events: none;
+    }
+}

@@ -1,0 +1,28 @@
+@import '../../../styles//variable.scss';
+@import '~@doct-react/core/build/variables.scss';
+
+.date-status-box {
+  padding: 10px 0 0;
+  text-align: center;
+  width: 92px;
+  border-radius: $border-radius;
+
+  .date-status-box-status {
+    color: $white;
+    margin: 0 -14px;
+  }
+
+  &.date-status-box-status-success {
+    .date-status-box-status {
+      background: $semantic-success;
+    }
+  }
+
+  &.date-status-box-status-cancelled,
+  &.date-status-box-status-failed,
+  &.date-status-box-status-error {
+    .date-status-box-status {
+      background: $semantic-danger;
+    }
+  }
+}

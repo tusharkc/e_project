@@ -1,0 +1,102 @@
+@import '../../../../../../../styles/variable.scss';
+@import '~@doct-react/core/build/variables.scss';
+
+$default-border: #FFB20066;
+$completed-border: #00C75266;
+$active-border: #6665FF66;
+
+@mixin overrideDefaultStyleFromMui {
+    .MuiAccordionSummary-root  {
+        .MuiAccordionSummary-content  {
+            margin: 0;
+        }
+    }
+}
+
+@mixin addDefaultStyleOfAllVariant {
+    .MuiAccordion-root  {
+        border-radius: $border-radius !important;
+        box-shadow: $box-shadow !important;
+        border-width: 1px;
+        border-style: solid;
+        transition: $transition;
+
+        .MuiAccordionSummary-root {
+            padding: 16px 0;
+            margin: 0 20px;
+            min-height: 64px;                
+            display:flex;
+        }   
+
+        &.Mui-expanded {
+            .MuiAccordionSummary-root {
+                border-bottom: 1px solid rgba($black, 0.03);
+            }
+        }
+    }
+}
+
+@mixin prepareVariant($border, $background) {
+    .MuiAccordion-root {
+        border-color: $border;
+        background-color: $background;
+    }
+}
+
+.attendee_details_with_form {
+   @include overrideDefaultStyleFromMui();    
+
+   @include addDefaultStyleOfAllVariant();
+
+   .attendee_details_with_form_status_icon {
+       opacity: 0;
+       transition: $transition;
+   }
+    
+    // variant styles
+    &.attendee_details_with_form_default {
+        @include prepareVariant($default-border, $grey-100);       
+
+        .attendee_details_with_form_status_icon_pending {
+            opacity: 1
+        }
+    }
+
+    &.attendee_details_with_form_active {
+        @include prepareVariant($active-border, $grey-100);
+
+        .attendee_details_with_form_status_icon_progress {
+            opacity: 1
+        }
+    }
+
+    &.attendee_details_with_form_completed {
+        @include prepareVariant($completed-border, $white);
+
+        .attendee_details_with_form_status_icon_pending {
+            opacity: 0
+        }
+
+        .attendee_details_with_form_status_icon_completed {
+            opacity: 1
+        }
+      
+    }
+
+    .attendee_details_with_form_detail_info {
+        min-width: 274px;
+    }
+
+    .attendee_details_with_form_status_icon {
+        top: -6px;
+        left: -24px;
+    }
+    
+}
+
+.action-menu-icon-wrapper {
+    height: 36px; // for adjust height of actionMenu wrapper div
+    div {
+        height: 36px;
+    }
+}

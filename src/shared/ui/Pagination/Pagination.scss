@@ -1,0 +1,24 @@
+@import 'node_modules/@doct-react/core/build/variables.scss';
+
+.pagination-wrapper {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: center;
+    .MuiPagination-ul {
+        li {
+            .MuiPaginationItem-root {
+                min-width: 24px;
+                height: 24px;
+                // border-radius: 50%;
+                margin: 0 8px;
+                background: $white;
+                color: $grey-600;
+                &.Mui-selected {
+                    background: $primary;
+                    color: $white;
+                }
+            }
+        }
+    }
+}

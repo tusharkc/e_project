@@ -1,0 +1,140 @@
+@import '../../styles/variable.scss';
+@import '~@doct-react/core/build/variables.scss';
+
+.registration-bg-primary {
+    background-color: #67C6D8EB;
+}
+
+.registration-title-panel {
+    svg {
+        color: $white;
+    }
+}
+
+.registration-main-area {
+    min-height: calc(100vh - 202px);
+    padding-bottom: 100px;
+}
+
+.registration-top-panel {
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(10px);
+    z-index: $z-index-above-all-elements; // to prevent dropdown element overlap 
+}
+
+// registration step stlye
+
+.registration-form-box {
+    padding: 16px 20px 20px;
+}
+
+.bg-white-opacity-06 {
+    background-color: rgba($white, 0.6);
+}
+
+.bg-success-16 {
+    background-color: rgba($semantic-success, .16);
+}
+
+.selection-panel-container {
+    padding-bottom: 124px;   
+}
+
+.selection-panel {
+    background-color: $grey-100;
+    border: 2px solid $white;
+    transition: 500ms ease all;
+
+    &.selection-panel-active {
+        background-color: $white;
+        box-shadow: 0px 1px 2px #00000008;
+    }
+
+    &.selection-panel-label {
+        label { // for making all panel clickable with Radio label
+            width: 100%;
+            padding-left: 12px;
+            height: 54px;
+
+            .MuiTypography-root {
+                font-weight: 500;
+            }
+        }
+    }
+
+    &.selection-panel-gap {
+        & + .selection-panel-gap {
+            margin-top: 8px
+        }
+    } 
+}
+
+.registration-table {
+
+    &.registration-table-gap-bottom {
+        padding-bottom: 84px
+    }
+
+    .registration-table-row {
+        padding: 7px 16px;
+        transition: .3s background-color ease, .3s box-shadow ease;
+
+        &:first-child {
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+
+        &:not(:first-child) {
+            height: 56px;
+            border-radius: $border-radius;
+            border-width: 2px;
+            border-style: solid;
+        }
+
+        &:not(:first-child):not(.row-has-value) {
+            border-color: $white;
+        }
+
+        &.row-has-value {
+            background-color: $white;
+            box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.03);
+            border-color: transparent;
+        }
+    }
+
+    .registration-table-data-heading {
+        margin-left: -24px;
+        margin-right: 24px;
+    }
+
+    .registration-table-data {
+
+        &:not(.registration-table-data-price) {
+            font-weight: 500;
+        }
+
+        &:first-child {
+            flex: 1 1 50%;
+        }
+
+        &:not(:first-child) {
+            flex: 1 1 16.6%;
+        }
+    }
+
+    .registration-table-data-price {
+        opacity: .5;
+    }
+
+    .registration-table-data-price-active {
+        opacity: 1;
+        font-weight: 500;
+    }
+
+}
+
+
+.add-remove-count {
+    margin: 0 13px;
+}

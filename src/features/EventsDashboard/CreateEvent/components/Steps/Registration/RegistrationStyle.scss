@@ -1,0 +1,63 @@
+@import "~@doct-react/core/build/variables.scss";
+.cover_image_section {
+    border: 1px dashed $grey-400;
+    height: 240px;
+}
+.horizontal_line_grey {
+    width: 670px;
+    border: 1px solid #e3e3e3;
+    right: 100px;
+}
+.organiser_card_body {
+    width: 198px;
+    height: 149px;
+}
+.specialty_section {
+    min-width: 426px;
+}
+.telephone_number {
+    width: 363px !important;
+    margin-left: 102px !important;
+}
+.img-organiser {
+    border-radius: 27px;
+    width: 54px;
+    height: 54px;
+}
+.upload_img_btn {
+    width: 112px;
+    margin-left: 183px;
+    height: 33px !important;
+}
+.edit_button {
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%, 0);
+    display: none;
+    margin-top: 109px;
+}
+.upload_img_container:hover .edit_button {
+    display: block;
+}
+.cover_image_size {
+    position: absolute;
+    bottom: 39px;
+    right: 8px;
+
+    img {
+        width: 465px;
+        height: 241px;
+        object-fit: cover;
+        border-radius: 6px;
+    }
+}
+.supportedby_img {
+    width: 60px;
+    height: 60px;
+}
+.more_action_menu_organizer {
+    .doct-button.doct-contained-button.doct-inverse-button {
+        background-color: $white !important;
+        transform: rotate(90deg);
+    }
+}

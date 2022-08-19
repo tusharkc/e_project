@@ -1,0 +1,56 @@
+@import '~@doct-react/core/build/variables.scss';
+$secondary-font: 'Roboto', sans-serif;
+
+.events_landing_page_blog-card-container {
+    max-width: 376px;
+    border: 1px solid #CDECF1;
+    border-radius: 6px;
+    height: 450px;
+&:hover{
+   border: 1px solid #007AFF; 
+}
+}
+.blog_section_image {
+    height: 145px;
+    background-size: cover;
+    max-width: 376px;
+    border-radius: 3px 3px 0px 0px;
+}
+
+.blog-catagory {
+    background-color: #4389ff;
+    display: inline-block;
+    padding: 2px;
+    border-radius: 5px;
+}
+.blogs_label_blue{
+    color: #007AFF;
+}
+.events_blog_title{
+    font-size: 28px;
+}
+.events_blog_subtitle{
+    font-size: 16px;
+}
+.section_blog_heading{
+    font-family:  $secondary-font;
+}
+.blog-description {
+    color: #717171;
+}
+.blog-catagory{
+    // height: 20px;
+    font-size: 12px;
+    text-align: center;
+}
+.explore_more_title{
+    font-family: $secondary-font;
+}
+.exlore_more_button{
+width: 134px;
+height: 46px;
+background-color: #4389ff;
+color: $white;
+border: none;
+border-radius: 26px;
+}

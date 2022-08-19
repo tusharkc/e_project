@@ -1,0 +1,39 @@
+@import '~@doct-react/core/build/variables.scss';
+
+.dropdown {
+    .dropdown-menu {
+        display: none;
+        box-shadow: 0px 3px 3px #0000001a;
+        border: 1px solid #0000000f;
+        border-radius: 6px;
+        min-width: 180px;
+        position: absolute;
+        background-color: $white;
+        z-index: 1;
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+    svg {
+        transition: 300ms ease all;
+    }
+    .dropdown-list-el {
+        height: 46px;
+        white-space: nowrap;
+        padding-left: 20px;
+        padding-right: 20px;
+
+        &:hover {
+            background-color: $grey-200;
+        }
+    }
+
+    &.dropdown-open {
+        .dropdown-menu {
+            display: block;
+        }
+
+        svg {
+            transform: rotate(180deg);
+        }
+    }
+}

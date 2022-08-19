@@ -1,0 +1,28 @@
+@import '~@doct-react/core/build/variables.scss';
+.banner_section{
+    background-image: url('../../../assets/images/event_landing_page/banner_images/banner_section_img.png');
+    min-height: 726px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.event_header{
+    font-size: 45px;
+}
+.event_landing_page_common_button{
+    background-color: #007aff;
+    border: none;
+    color: $white;
+    padding: 12px;
+    border-radius: 26px;
+
+  &:hover {
+   background-color: #0062CC;
+ }
+}
+.redefine_underline{
+    left: 0px;
+}
+.video_section_intro{
+    font-size: 16px;
+    color: $white;
+}

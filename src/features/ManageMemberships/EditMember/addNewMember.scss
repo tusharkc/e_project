@@ -1,0 +1,86 @@
+.user_profiile_img {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.form_container_body {
+    width: 600px;
+}
+
+.discard_btn {
+    background-color: #ea4335 !important;
+}
+
+.discard_btn:hover {
+    background-color: #ea4335 !important;
+}
+
+.save_draft_btn {
+    background-color: rgb(235, 235, 235) !important;
+}
+
+.save_draft_btn:hover {
+    background-color: rgb(235, 235, 235) !important;
+}
+
+.input-column {
+    & + .input-column {
+        margin-top: 20px;
+    }
+
+    .input-column-tiny {
+        max-width: 86px;
+        margin-right: 16px;
+    }
+
+    &.input-column-half-size-row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+
+    .input-column-half-size {
+        max-width: 50%;
+        width: 100%;
+        padding: 0 8px;
+    }
+
+    & > div {
+        width: 100%;
+    }
+}
+.add_new_member_header {
+    height: 54px;
+}
+.basic_info_title_border,
+.membership_info_title_border,
+.professional_info_title_border,
+.contact_location_info_title_border {
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+
+.basic_info_contents,
+.membership_info_contents,
+.professional_info_contents,
+.contact_location_info_contents {
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+.whatsapp_number_title {
+    margin-right: 172px;
+}
+.success_member_modal .doct-secondary-button {
+    display: none !important;
+}
+
+.success_member_modal .doct-secondary-button {
+    display: none !important;
+}
+
+.success_member_modal .doct-modal-content-wrapper {
+    min-height: 182px !important;
+}

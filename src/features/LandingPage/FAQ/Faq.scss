@@ -1,0 +1,46 @@
+.faq_section_header {
+    font-weight: 900;
+    max-width: 716px;
+    font-size: 45px !important;
+}
+
+.faq_section_header_container {
+    margin-top: 100px;
+}
+
+.questions_section_text {
+    font-weight: 900;
+    margin-top: 144px;
+    margin-bottom: 80px;
+    font-size: 45px;
+}
+
+.questions_modal_container {
+    max-width: 964px;
+   border-bottom: 2px solid #CECECE;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.for_top_line{
+     border-top: 2px solid #CECECE;
+     max-width: 964px;
+    margin-left: 96px;
+}
+
+.modal_open {
+    transform: rotate(180deg);
+}
+
+.modal_close {
+    transform: rotate(0deg);
+}
+
+.modal_questions {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.modal_answers {
+    font-size: 20px;
+    font-weight: normal;
+}

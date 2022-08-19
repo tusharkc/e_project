@@ -1,0 +1,33 @@
+
+@import '~@doct-react/core/build/variables.scss';
+
+$business-topbar-bg: $grey-100;
+$business-topbar-height: 64px;
+
+$profile-photo-size: 32px;
+
+.business-top-bar {
+    height: $business-topbar-height;
+    background-color: $business-topbar-bg;
+    display: flex;
+    align-items: center;
+
+    &.business-top-bar-sticky {
+        position: sticky;
+        top: 0;
+        z-index: 1040;
+    }
+
+    .business-top-bar-profile-photo-wrapper {
+        height: $profile-photo-size;
+        width: $profile-photo-size;
+        border-radius: 50%;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            object-fit: cover;
+        }
+    }
+}

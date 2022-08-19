@@ -1,0 +1,49 @@
+.pb-6px {
+    padding-bottom: 6px;
+}
+
+.px-12px {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.pt-12px {
+    padding-top: 12px;
+}
+
+.ml-6px {
+    margin-left: 6px;
+}
+
+.pb-12px {
+    padding-bottom: 12px;
+}
+
+.py-12px {
+    @extend .pt-12px;
+    @extend .pb-12px;
+}
+
+.mt-12px {
+    margin-top: 12px;
+}
+
+.mb-12px {
+    margin-bottom: 12px;
+}
+
+.pt-6px {
+    padding-top: 6px
+}
+
+.pb-6px {
+    padding-bottom: 6px
+}
+
+.mr-12px {
+    margin-right: 12px;
+}
+
+.form-heading-mb {
+    @extend .mb-12px;
+}

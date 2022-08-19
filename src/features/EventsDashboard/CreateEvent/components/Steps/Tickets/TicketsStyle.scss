@@ -1,0 +1,64 @@
+.ticket_categories_section,
+.INR_section,
+.USD_section{
+    height: 258px;
+}
+.inr_text,
+.usd_text{
+    color: #4389FF;
+}
+.members_icon{
+    height: 24px;
+    width: 24px;
+}
+.total_atendees_section{
+    height: 46px;
+}
+.line_straight{
+    width: 2px;
+    height: 14px;
+    background: #4389FF;
+}
+.numbers_adding{
+    width: 82px;
+    height: 28px;
+}
+.number_320{
+    margin-right: 100px;
+}
+.radio_btn_text {
+    margin-left: 92px;
+}
+.ticket_container{
+    width: 328px;
+    height: 134px;
+}
+
+.category_name{
+    width: 296px !important;
+}
+
+.categories_start_date{
+    width: 303px !important;
+}
+
+.category_body_container{
+    width: 328px;
+    height: 232px;
+}
+
+.more_icon{
+    width: 37px;
+    height: 20px;
+}
+.tickets_more_menu{
+    transform: rotate(90deg);
+}
+
+.text-truncate-small-line{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100px;
+}
+

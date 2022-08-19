@@ -1,0 +1,44 @@
+.number_section_card {
+    border-radius: 24px;
+    max-width: 356px;
+}
+
+.number_section_count {
+    font-size: 50px;
+}
+
+.platform_name {
+    font-size: 30px;
+}
+
+.number_section_info_heading {
+    margin-top: 150px;
+    margin-bottom: 45px;
+}
+
+.traffic_every_month_card {
+    border-radius: 24px;
+    border: 1px solid #cdecf1;
+
+    & h3 {
+        font-size: 36px;
+        font-weight: 900;
+    }
+}
+
+.users_every_month_card {
+    border-radius: 24px;
+    background: rgba(0, 160, 192, 0.1);
+}
+
+.join_docthub_btn {
+    background: white;
+    border: none;
+    padding: 12px;
+    border-radius: 26px;
+    font-weight: bold;
+}
+
+.bg_illustration_numbers {
+    right: -350px;
+}

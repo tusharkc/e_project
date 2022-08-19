@@ -1,0 +1,65 @@
+@import '~@doct-react/core/build/variables.scss';
+
+$stepper-connector-height: 20px;
+$stepper-connector-bg: #abdfe9;
+$stepper-connector-completed-bg: #EEF9FB;
+.custom-stepper {
+
+    .MuiStepper-root  {
+        background-color: initial !important;
+    }
+
+    .QontoStepIcon-completedIcon-container {
+        width: $stepper-connector-height - 4px;
+        height: $stepper-connector-height - 4px;
+        background-color: $primary;
+        border-radius: 50%;
+    }
+    
+    .MuiStepConnector-root {
+        &.MuiStepConnector-horizontal {
+            left: calc(-50% - #{$stepper-connector-height/2}) !important;
+            right: calc(50% - #{$stepper-connector-height/2}) !important;
+        }
+    }
+
+    .MuiStepLabel-iconContainer {
+        z-index: 1;
+    }
+
+    .MuiStepConnector-line {
+        border-top-width: $stepper-connector-height !important;
+        border-color: $stepper-connector-bg !important;
+        border-radius: 13px !important;
+    }
+
+    .Mui-completed,
+    .MuiStepConnector-root.Mui-active {
+        .MuiStepConnector-line  {
+            border-color: $stepper-connector-completed-bg !important;
+        }
+    }
+
+    .QontoStepIcon-active {
+
+        background-color: $primary;
+        width: $stepper-connector-height;
+        height: $stepper-connector-height;
+        border-radius: 50%;
+        border: 5px solid $white;
+        box-shadow: 0px 2px 3px #0000001A;
+
+
+        .QontoStepIcon-circle {
+            display: none;
+        }
+    }
+
+    .MuiStepLabel-label  {
+        text-transform: capitalize !important;
+        font-size: 14px !important;
+        letter-spacing: 0 !important;
+        color: $white !important;
+        font-weight: 400 !important;
+    }
+}

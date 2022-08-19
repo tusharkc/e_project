@@ -1,0 +1,52 @@
+.section_testimonial_title {
+    font-size: 34px;
+}
+
+.testimonial_section_container {
+    // margin-top: 258px;
+    margin-top: 186px;
+    background-color: rgba(0, 0, 0, 0.020);
+    height: 694px;
+}
+
+.testimonial_card {
+    min-width: 572px;
+    border: 1px solid #cdecf1;
+    background-color: white;
+    border-radius: 24px;
+}
+
+.fraternity_post {
+    font-size: 14px;
+    padding-bottom: 60px;
+}
+
+.fraternity_name {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 118px;
+}
+
+.testimonial_content {
+    max-width: 100%;
+
+    & p {
+        max-width: 450px;
+        margin: 88px 60px 118px 60px;
+    }
+}
+
+.video_bg {
+    height: 260px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bg_illustration_testimonials {
+    z-index: -2;
+    right: -300px;
+    bottom: 0px;
+}
+.section_testimonial_title{
+    padding-top: 108px;
+}

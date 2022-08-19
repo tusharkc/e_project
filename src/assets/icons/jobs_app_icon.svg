@@ -1,0 +1,9 @@
+<svg id="JobsAppIcon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <circle id="bounding" cx="12" cy="12" r="12" fill="none"/>
+  <g id="Art" transform="translate(1.333 1.25)">
+    <path id="Path_1192" data-name="Path 1192" d="M2.8,0H18.871a2.8,2.8,0,0,1,2.8,2.8V13.28a2.8,2.8,0,0,1-2.8,2.8H2.8A2.8,2.8,0,0,1,0,13.28V2.8A2.8,2.8,0,0,1,2.8,0Z" transform="translate(0 4.192)" fill="#00a0c0"/>
+    <path id="Subtraction_12" data-name="Subtraction 12" d="M8.387,8.3h0v-5.5a.7.7,0,0,0-.7-.7H2.8a.7.7,0,0,0-.7.7V8.3A2.8,2.8,0,0,1,0,5.588V2.794A2.8,2.8,0,0,1,2.8,0H7.691a2.8,2.8,0,0,1,2.794,2.794V5.588a2.8,2.8,0,0,1-2.1,2.71Z" transform="translate(5.59)" fill="#99d9e3"/>
+    <path id="Path_1191" data-name="Path 1191" d="M2.8,0H18.871a2.8,2.8,0,0,1,2.8,2.8v2.1a2.8,2.8,0,0,1-2.8,2.8H2.8A2.8,2.8,0,0,1,0,4.892V2.8A2.8,2.8,0,0,1,2.8,0Z" transform="translate(0 4.192)" fill="#67c6d8"/>
+    <path id="Path_1193" data-name="Path 1193" d="M1.747,0A1.747,1.747,0,0,1,3.495,1.747v1.4A1.747,1.747,0,0,1,0,3.145v-1.4A1.747,1.747,0,0,1,1.747,0Z" transform="translate(9.086 9.434)" fill="#cdecf1"/>
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+$card-image-height: 185px;
+
+.column_gap_between_chips_item {
+    gap: 7px;
+}
+.icon_done,
+.icon_exclamation {
+    width: 16px;
+    height: 16px;
+}
+.event-card-image-wrapper {
+    height: $card-image-height;
+    min-height: $card-image-height;
+    width: 328px;
+    object-fit: cover;
+    max-width: 328px;
+}

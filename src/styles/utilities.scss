@@ -1,0 +1,52 @@
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+ 
+.flex-1 {
+    flex: 1;
+}
+
+.d-flex-center-y {
+    display: flex;
+    align-items: center;
+}
+
+.rotate90 {
+    transform: rotate(90deg);
+}
+
+.rotate90-icon {
+    svg {
+        @extend .rotate90;
+    }
+}
+
+
+// component style
+.MuiModal-root   {
+    & > div {
+        z-index: 1; // wihtout this modal appear behind back drop
+    }
+}
+
+.backdrop-filter {
+    backdrop-filter: blur(8px);
+}
+
+.icon-14px {
+    width: 14px !important;
+    height: 14px !important;
+    font-size: 14px;
+}

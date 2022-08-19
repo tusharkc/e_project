@@ -1,0 +1,87 @@
+.form_bg {
+  background-color: #242424;
+  border-radius: 10px;
+  min-width: 1200px;
+  // min-height: 550px;
+}
+
+.form_element {
+  position: relative;
+  width: 474px;
+  height: 450px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.btn_inquire_now {
+  right: 10px;
+  position: absolute;
+}
+
+.form_email_button {
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 30px;
+
+  a {
+    color: white;
+  }
+}
+
+.form_heading {
+  font-size: 27px !important;
+  padding: 10px;
+}
+
+@media (max-width: 767px) {
+  .inquire_text {
+    color: white;
+  }
+
+  .text_field {
+    background-color: white;
+  }
+
+  input {
+    background-color: white;
+  }
+
+  .form_bg {
+    background-color: #242424;
+    border-radius: 0px;
+    width: 100vw;
+    // height: 125vh;
+  }
+
+  .form_element {
+    position: relative;
+    width: 100vw;
+    height: 416px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+  .btn_inquire_now {
+    left: 25px;
+    position: absolute;
+  }
+
+  .form_email_button {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 30px;
+
+    a {
+      color: white;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .form_bg {
+    background-color: #242424;
+    border-radius: 10px;
+    min-width: 900px;
+    // min-height: 550px;
+  }
+}

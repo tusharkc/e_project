@@ -1,0 +1,162 @@
+$formElementVerticalGap: 20px;
+
+.form_el {
+    & + .form_el {
+        margin-top: $formElementVerticalGap;
+    }
+
+    &.form_el_gap_bottom {
+        margin-bottom: $formElementVerticalGap;
+    }
+
+    &.form_el_gap_top {
+        margin-top: $formElementVerticalGap;
+    }
+
+    &__title {
+        margin-bottom: 12px;
+    }
+
+    &__boxed-radio {
+        label {
+            background-color: $white;
+            min-height: 46px;
+            padding-left: 14px;
+            padding-right: 14px;
+            min-width: 221px;
+            margin-right: 8px;
+            border-radius: $border-radius;
+            margin-top: 8px;
+            box-shadow: 0px 1px 2px #00000008;
+        }
+
+        .doct-radio-buttons {
+            .MuiIconButton-label {
+                width: 20px;
+                height: 20px;
+            }
+
+            input {
+                width: 20px;
+                height: 20px;
+            }
+
+            .MuiButtonBase-root {
+                padding-left: 0;
+                padding-right: 8px;
+            }
+
+            .MuiTypography-root {
+                letter-spacing: 0;
+            }
+        }
+    }
+
+    .form_el__boxed-radio_inline {
+        label {
+            max-width: 221px;
+            white-space: nowrap;
+            &:nth-child(even) {
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+.registration-form-gap-top {
+    margin-top: 34px !important;
+}
+
+.registration-form-gap-bottom {
+    margin-bottom: 34px !important;
+}
+
+.input-column {
+    & + .input-column {
+        margin-top: 20px;
+    }
+
+    .input-column-tiny {
+        max-width: 86px;
+        margin-right: 16px;
+    }
+
+    &.input-column-half-size-row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+
+    .input-column-half-size {
+        max-width: 50%;
+        width: 100%;
+        padding: 0 8px;
+    }
+
+    & > div {
+        width: 100%;
+    }
+}
+
+.doct-input {
+    &.doct-input-focused {
+        label {
+            transform: translate(12px, 8px) scale(0.75) !important;
+        }
+    }
+
+    .MuiInputLabel-root {
+        & + .MuiInputBase-root {
+            margin-top: 0;
+            padding-top: 16px;
+        }
+    }
+
+    &.disabled {
+        background-color: $grey-300 !important;
+
+        .MuiInputBase-root {
+            background-color: $grey-300 !important;
+        }
+    }
+
+    .Mui-disabled {
+        background-color: $grey-300 !important;
+    }
+}
+
+.doct-autocomplete-select {
+    .Mui-error {
+        &:after {
+            border-width: 1px;
+        }
+    }
+}
+
+.material-character-limit-input {
+    .MuiFormHelperText-root {
+        margin-left: auto;
+    }
+}
+
+.MuiButtonBase-root {
+    &.MuiRadio-root {
+        padding: 9px;
+    }
+}
+
+.boxed-radio {
+    .doct-radio-buttons {
+        label {
+            background-color: $grey-100;
+            box-shadow: 0px 1px 2px #00000008;
+            border-radius: 6px;
+            margin: 0 4px;
+            width: calc(50% - 8px);
+            &.doct-label-active {
+                background-color: $white;
+            }
+        }
+    }
+}
